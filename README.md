@@ -6,10 +6,12 @@ Semi-open source code to improve listener's perception of audio quality on a psy
 
 Developed based on my past experience as an Audio Engineer & working at different companies.
 
-Development Build Instructions:
+Current Status: Effect is only minimal (no clear of improvement shown in ABX testing) 
+
+# Development Build Instructions:
 > The complexity of this project makes it almost impossible to deploy on other machines at a scale. As this is only POC for now, I will figure this out later.
 
-<h4> Oh and make sure to check out the License.md before doing anything to my work! </h4>
+<h4> Oh and make sure to check out the LICENSE .md before doing anything! </h4>
 
 # Inspirations/References:
 > Yang, Gao. CELP post-processing for music signals. US8577673B2. United States Patent and Trademark Office. 05 November 2013.
