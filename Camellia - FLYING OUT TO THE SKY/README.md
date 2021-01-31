@@ -6,9 +6,9 @@ MP3 Metadata:
 Bit rate - 192kbps
 
 Processed FLAC Metadata: 
-Bit Depth - 24 bit 
+Bit Depth - 16 bit (Because GitHub Size Limit)
 Sample Rate - 48000Hz
-Bit rate - 2304kbps
+Bit rate - 1157kbps
 Dithering - None
 
 
