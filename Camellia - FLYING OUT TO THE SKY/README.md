@@ -5,7 +5,7 @@ YouTube to MP3 Converter used: ytmp3.cc
 MP3 Metadata:
 Bit rate - 192kbps
 
-Processed WAV Metadata: 
+Processed FLAC Metadata: 
 Bit Depth - 24 bit 
 Sample Rate - 48000Hz
 Bit rate - 2304kbps
