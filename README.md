@@ -6,7 +6,9 @@ Semi-open source code to improve listener's perception of audio quality on a psy
 
 Developed based on my past experience as an Audio Engineer & working at different companies.
 
-**Current Status:** Effect is only minimal (no clear signs of improvement shown in ABX testing) 
+# Current Status: (Last Updated 2 Feb 2021)
+> Effect is audibly better. Revised Algorithm increases efficiency by up to 300% compared to initial build.
+> Near Real-Time processing is in sight and will be built-in to the Recorder's firmware by the end of 2021. 
 
 # Development Build Instructions:
 > The complexity of this project makes it almost impossible to deploy on other machines at a scale. As this is only POC for now, I will figure this out later.
