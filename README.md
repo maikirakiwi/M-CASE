@@ -6,7 +6,9 @@ Semi-open source code to improve listener's perception of audio quality on a psy
 
 Developed based on my past experience as an Audio Engineer & working at different companies.
 
-# Current Status: (Last Updated 2 Feb 2021)
+# Current Status: (Last Updated 7 April 2021)
+> UPDATE: (04/07/2020) This project has been commercialized and thus I can no longer publish updates on this repository. Thank you for your interest in this project, if you have any further questions, you can contact me at maikiwi@megumi.dev.
+
 > Effect is audibly better. Revised Algorithm increases efficiency by up to 300% compared to initial build.
 > Near Real-Time processing is in sight and will be built-in to the Recorder's firmware by the end of 2021. 
 
