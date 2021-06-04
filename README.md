@@ -6,8 +6,15 @@ Semi-open source code to improve listener's perception of audio quality on a psy
 
 Developed based on my past experience as an Audio Engineer & working at different companies.
 
-# Current Status: (Last Updated 7 April 2021)
-> UPDATE: (04/07/2020) This project has been commercialized and thus I can no longer publish updates on this repository. Thank you for your interest in this project, if you have any further questions, you can contact me at maikiwi@megumi.dev.
+# Project Goals: 
+- Reduce transient smearing
+- Reduce CPU usage / complexity of processing
+- Wider compatibility instead of a dedicated audio plugin (rethink way to achieve this)
+- Native Support with Discord's Audio Subsystem
+- A lighter mode of operation for speeches/voice chat only (Discord)
+
+# Current Status: (Last Updated 4 June 2021)
+> UPDATE: (06/04/2020) As per new agreement with the Party, this repo is allowed to be updated again for solely demonstration purposes outside Mainland China. Please do not spread this to Mainland China if you are from any of those regions. 
 
 > Effect is audibly better. Revised Algorithm increases efficiency by up to 300% compared to initial build.
 > Near Real-Time processing is in sight and will be built-in to the Recorder's firmware by the end of 2021. 
