@@ -20,7 +20,7 @@ Developed based on my past experience as an Audio Engineer & working at differen
 > Near Real-Time processing is in sight and will be built-in to the Recorder's firmware by the end of 2021. 
 
 # Development Build Instructions:
-> The complexity of this project makes it almost impossible to deploy on other machines at a scale. As this is only POC for now, I will figure this out later.
+> TBD, I will figure this out later.
 
 <h4> Oh and make sure to check out the LICENSE before doing anything! </h4>
 
