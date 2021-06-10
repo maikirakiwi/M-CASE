@@ -6,7 +6,8 @@ Semi-open source code to improve listener's perception of audio quality on a psy
 
 Developed based on my past experience as an Audio Engineer & working at different companies.
 
-# (2021) Project Goals: 
+# (2021) Project Goals:
+- [Secure Container Support](https://github.com/maikirakiwi/M-CASE/m-case-sec)
 - Reduce transient smearing
 - Reduce CPU usage / complexity of processing
 - Wider compatibility instead of a dedicated audio plugin (rethink way to achieve this)
