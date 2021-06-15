@@ -1,35 +1,101 @@
-# M-CASE
-Maikira's Computational Audio Spectral Enhancement Engine
+# Kasei (Kiwi's Audio/Sound Engineering Project Tree)
+(Named after one of my favorite company Asahi Kasei Corporation)
 
-Pronounced as *Ma' Case* (Yes I know terrible name)
-Semi-open source code to improve listener's perception of audio quality on a psychoacoustic level when given a compressed audio source. This does not necessarily "upscale" any source to a higher quality, for that, you need to remaster the original source. 
+<!-- Directory -->
+<ol>
+  <li>
+    <a href="#about">About</a>
+    <ul>
+      <li><a href="#framework">Dependencies</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#projects">Projects</a>
+    <ul>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#kacee">KACEE</a></li>
+      <li><a href="#kacee-s">KACEE-S</a></li>
+    </ul>
+  </li>
+  <li><a href="#roadmap">Roadmap</a></li>
+  <li><a href="#contributing">Contributing</a></li>
+  <li><a href="#license">License</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#acknowledgements">Acknowledgements</a></li>
+</ol>
 
-Developed based on my past experience as an Audio Engineer & working at different companies.
 
-# (2021) Project Goals:
-- [Secure Container Support](https://github.com/maikirakiwi/M-CASE/m-case-sec)
-- Reduce transient smearing
-- Reduce CPU usage / complexity of processing
-- Wider compatibility instead of a dedicated audio plugin (rethink way to achieve this)
-- Native Support with Discord's Audio Subsystem
-- A lighter mode of operation for speeches/voice chat only (Discord)
+<!-- ABOUT THE PROJECT -->
+## About
 
-# Current Status: (Last Updated 4 June 2021)
-> UPDATE: (06/04/2020) As per new agreement with the Party, this repo is allowed to be updated again for solely demonstration purposes outside Mainland China. Please do not spread this to Mainland China if you are from any of those regions. 
+This really started out as a project out of personal interest/hobby in Audio Processing. Now that variations of the sub-project has been licensed and commercialized. (A very extensive fork of KACEE/M-CASE specifically designed for a Chinese streaming platform) It only serves to further interest me in the field of audio with my very limited but growing programming knowledge.      
 
-> Effect is audibly better. Revised Algorithm increases efficiency by up to 300% compared to initial build.
-> Near Real-Time processing is in sight and will be built-in to the Recorder's firmware by the end of 2021. 
+Here's why this repository is important:
+* One of the few extensively detailed & documented resource for audio processing available for free of charge.
+* Voluntarily bringing together the audio community into maintaining and enhancing audio processing for humankind.
+* Rescue some of my really poorly recorded audio samples and apply things learned to possibly other clips.
+* Showing people how far an individual can reach out of their sole interest in this particular topic.
 
-# Development Build Instructions:
-> TBD, I will figure this out later.
+The need for more open-sourced researches regarding Digital Signal Processing are paramount for the dying industry to be revived by the community. So, I hope this repo will serve as an inspiration to you, the person reading this! 
 
-<h4> Oh and make sure to check out the LICENSE before doing anything! </h4>
+Academic references and rightholders are stated in acknowledgements.
 
-# Inspirations/References:
-> Yang, Gao. CELP post-processing for music signals. US8577673B2. United States Patent and Trademark Office. 05 November 2013.
+## Framework
+My research involved heavily in endless trials and errors of different combination of the system for each of my projects. As a result, the dependencies of each of the extension to my research are extremely hard to keep track of. For this exact purpose, the following dependencies mentioned are only the most significant/notable ones.
 
-> Geiger, Ralf. Apparatus and method for coding a time-discrete audio signal to obtain coded audio data and for decoding coded audio data. US7275036B2. United States Patent and Trademark Office. 25 September 2007.
+### KACEE
+(Previously M-CASE)
+* [ATRAC9/LDAC](https://en.wikipedia.org/wiki/Adaptive_Transform_Acoustic_Coding)
+* [HE-AAC/ISO 14496-3](https://en.wikipedia.org/wiki/High-Efficiency_Advanced_Audio_Coding)
 
-> P. K. T. Wu, N. Epain and C. Jin, "A super-resolution beamforming algorithm for spherical microphone arrays using a compressed sensing approach," 2013 IEEE International Conference on Acoustics, Speech and Signal Processing, Vancouver, BC, 2013, pp. 649-653, doi: 10.1109/ICASSP.2013.6637728.Abstract: In this paper, we present a novel beamforming algorithm that is designed for spherical microphone arrays and formulated in the spherical harmonic domain. The proposed algorithm employs sparse recovery, a compressed sensing technique, and assumes the position of the source signals are unknown. A formal listening test was conducted to evaluate the performance of the proposed algorithm and the results indicate the effectiveness of the proposed algorithm. keywords: {array signal processing;compressed sensing;harmonic analysis;microphone arrays;signal resolution;super-resolution beamforming algorithm;spherical microphone arrays;compressed sensing approach;spherical harmonic domain;sparse recovery;compressed sensing technique;source signals;formal listening test;performance evaluation;Array signal processing;Microphone arrays;Signal resolution;Spatial resolution;Acoustics;Signal processing algorithms;Spherical Microphone Arrays;Source Localization;Beamforming;Compressed Sensing},URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6637728&isnumber=6637585
+### KACEE-S
+(Previously M-CASE-SEC)
+* TBD
 
-> AND MORE!
+<!-- GETTING STARTED -->
+## Projects
+
+Below are specific descriptions of each of the project in this branch.
+
+### Prerequisites
+
+* Basic knowledge in how sound physically works and how they are processed through digital means. 
+
+### KACEE
+
+#### Kiwi's Auditory Cognitive Enhancement Engine 
+(Previously M-CASE)
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+### 2021
+* Restructuring of my personal project and organize them under one big name. (Done)
+* TBA
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are welcomed as more brain cells help to make this project more robust over time. Please use discussion to ask questions and open new issues for any signficant flaw that need to be addressed.
+
+<!-- LICENSE -->
+## License
+
+This repository includes modified copies of other's original work. As such, only the modifications/written code/methodology made by **myself** are licensed under the GPL-3.0 License. For details of GPL-3.0, See `LICENSE` for more information. Any modifications branched from existing copyrighted material such as music, proprietary technology and etc still retain their originally defined license. Please look those licenses up to see if you wish to republish part of this repository for your own project. 
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Maikiwi - Maikiwi#0001 (Discord) - stella@mai.kiwi (Email)
+
+Permanent Project Link: [https://github.com/maikirakiwi/Kasei](https://github.com/maikirakiwi/Kasei)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Etymotic Research, Inc.](https://www.etymotic.com) (The ETYMOTIC and ETY logos are trademarks of Etymotic, Inc.) [1][2]
