@@ -5,10 +5,14 @@ YouTube to MP3 Converter used: ytmp3.cc
 MP3 Metadata:
 ```Bit rate - 192kbps```
 
-Processed FLAC Metadata: 
-```Bit Depth - 16 bit ``` (Because GitHub Size Limit)
+Processed FLAC Metadata: (Because GitHub Size Limit)
+
+```Bit Depth - 16 bit``` 
+
 ```Sample Rate - 48000Hz```
+
 ```Bit rate - 1157kbps```
+
 ```Dithering - None```
 
 
