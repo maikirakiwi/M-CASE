@@ -43,12 +43,12 @@ Academic references and rightholders are stated in acknowledgements.
 ## Framework
 My research involved heavily in endless trials and errors of different combination of the system for each of my projects. As a result, the dependencies of each of the extension to my research are extremely hard to keep track of. For this exact purpose, the following dependencies mentioned are only the most significant/notable ones.
 
-### KACEE
+### KACEE:
 (Previously M-CASE)
 * [ATRAC9/LDAC](https://en.wikipedia.org/wiki/Adaptive_Transform_Acoustic_Coding)
 * [HE-AAC/ISO 14496-3](https://en.wikipedia.org/wiki/High-Efficiency_Advanced_Audio_Coding)
 
-### KACEE-S
+### KACEE-S:
 (Previously M-CASE-SEC)
 * TBD
 
@@ -62,10 +62,13 @@ Below are specific descriptions of each of the project in this branch.
 * Basic knowledge in how sound physically works and how they are processed through digital means. 
 
 ### KACEE
-
 #### Kiwi's Auditory Cognitive Enhancement Engine 
+
 (Previously M-CASE)
 
+### KACEE-S
+#### Kiwi's Auditory Cognitive Enhancement Engine - Secured
+(Previously M-CASE-SEC) 
 
 <!-- ROADMAP -->
 ## Roadmap
