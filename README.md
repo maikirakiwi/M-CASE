@@ -13,7 +13,8 @@
     <a href="#projects">Projects</a>
     <ul>
       <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#kacee">KACEE</a></li>
+      <li><a href="#kacee-ng">KACEE-NG</a></li>
+      <li><a href="#kacee-depr">KACEE-Deprecated</a></li>
       <li><a href="#kacee-s">KACEE-S</a></li>
     </ul>
   </li>
@@ -43,14 +44,20 @@ Academic references and rightholders are stated in acknowledgements.
 ## Framework
 My research involved heavily in endless trials and errors of different combination of the system for each of my projects. As a result, the dependencies of each of the extension to my research are extremely hard to keep track of. For this exact purpose, the following dependencies mentioned are only the most significant/notable ones.
 
-### KACEE:
-(Previously M-CASE)
+### KACEE-NG:
+(Successor to M-CASE)
 * [ATRAC9/LDAC](https://en.wikipedia.org/wiki/Adaptive_Transform_Acoustic_Coding)
 * [HE-AAC/ISO 14496-3](https://en.wikipedia.org/wiki/High-Efficiency_Advanced_Audio_Coding)
 
+
+### KACEE-Depr:
+(Previously M-CASE)
+* TBD
+
 ### KACEE-S:
 (Previously M-CASE-SEC)
-* TBD
+* Everything under KACEE-NG
+* [Camellia-128-cfb](https://en.wikipedia.org/wiki/Camellia_(cipher))
 
 <!-- GETTING STARTED -->
 ## Projects
@@ -59,16 +66,31 @@ Below are specific descriptions of each of the project in this branch.
 
 ### Prerequisites
 
-* Basic knowledge in how sound physically works and how they are processed through digital means. 
+* Basic knowledge in how sound works and how they are processed through digital means.
+* To some extent, physics. 
 
-### KACEE
-#### Kiwi's Auditory Cognitive Enhancement Engine 
+### KACEE-NG
+#### Kiwi's Auditory Cognitive Enhancement Engine - Next Generation
+(Successor to M-CASE)
+Next Generation of M-CASE, expanding the project beyond low bitrate music enhancement but to speeches as well.
+There are going to be many submodules available under the KACEE-NG name in the future. Such as the planned -AM (Audio Modernization) and -LL (Low Latency).
 
-(Previously M-CASE)
+
+### KACEE-Depr
+#### Kiwi's Auditory Cognitive Enhancement Engine - Deprecated
+(Previously M-CASE) 
+Pretty much legacy experiments and structure that I would love to archive on Git just because.
+Changes made to the entire thing is so significant that it deserves to be called -NG.
+> TBA
+
 
 ### KACEE-S
 #### Kiwi's Auditory Cognitive Enhancement Engine - Secured
 (Previously M-CASE-SEC) 
+Based on the modern audio processing KACEE-NG but the encoded streams end up encrypted with a symmetric cipher.
+Camellia-128-cfb will be the default option since it is an ISO standard and patented.
+> TBA
+
 
 <!-- ROADMAP -->
 ## Roadmap
