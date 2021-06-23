@@ -16,4 +16,12 @@ The current version (v0.0.1) has the algorithm defined as a class of multiple mo
 
 Really mixed results.
 
+## Extended Description
+To save me and you some brain cells.
+Here are materials for you to read if you want to know why the processing/EQ Match **should** be in LP/Linear Phase.
+
+https://dsp.stackexchange.com/questions/31726/why-is-a-linear-phase-important
+
+![image](https://user-images.githubusercontent.com/74925636/123018727-ec166800-d383-11eb-84a6-9b45a3bd5cd1.png)
+
 ----------
