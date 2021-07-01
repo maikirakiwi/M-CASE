@@ -92,6 +92,14 @@ Camellia-128-cfb will be the default option since it is an ISO standard and pate
 > TBA
 
 
+### KLLS
+#### Kiwi's Lossy-but-Lossless Standardization
+A new take at "Compressed Lossless" as a personal goal to shrink my Lossless library on my DAP.
+Note that this is technically "Lossy" but subjectively "transparent" compared to a Lossless Stream.
+(All PCM streams downsampled to 38400Hz and packaged using OGG @ Q8 Setting)
+(~76.6% Space Saving compared to FLAC Source)
+> TBA
+
 <!-- ROADMAP -->
 ## Roadmap
 
